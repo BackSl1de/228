@@ -11,7 +11,10 @@ public class Main {
         ud.dropUsersTable();
         ud.createUsersTable();
         ud.saveUser("dsfsdf", "weqweqw", (byte) 22);
-        ud.removeUserById(1);
+        ud.saveUser("dsfdf", "weqddddweqw", (byte) 22);
+        ud.saveUser("dsfsgggg", "weqwffffw", (byte) 22);
+        ud.cleanUsersTable();
+
     }
 }
 
